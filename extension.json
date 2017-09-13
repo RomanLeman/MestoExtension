@@ -1,0 +1,15 @@
+{
+	"name": "MestoMain",
+	"version": "0.0.1",
+	"author" : ["R. Leman"],
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"MestoMain::onParserInit"
+			]
+	},
+	"AutoloadClasses": {
+		"MestoMain": "MestoMain.class.php"
+
+	}
+
+}
